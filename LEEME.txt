@@ -1,0 +1,89 @@
+-----------------------------------------------------------------------------
+-----------------------------------------------------------------------------
+ES IMPORTANTE QUE LEAS ESTE DOCUMENTO PORQUE TE DARÁ UNA VISIÓN GLOBAL SOBRE 
+QUÉ ES LO QUE HAY Y ALGUNAS RECOMENDACIONES...
+-----------------------------------------------------------------------------
+-----------------------------------------------------------------------------
+
+
+
+***************************************
+      RECOMENRDACIONES
+***************************************
+ Definición de lo que puedes 
+ encontrarte en cada una de las carpetas
+---------------------------------------
+
+Los programas de la carpeta 1 y 2, fueron desarrollados utilizando PyCharm, 
+sin embargo los programas de las carpetas 3 y cuatro fueron desarrollados 
+utilizando Jupyter notebook esto es importante saberlo ya que si queremos 
+explorar todas las bondades y que Jupyter notebook pone a nuestra disposición
+ es mejor ejecutar estos programas en dicho entorno porque se han realizado 
+comentarios y explicativos donde se explica exactamente todo y de manera 
+visual y académica es fácil de entender.
+
+
+
+
+***************************************
+      ¿QUÉ HAY EN CADA CARPETA?
+***************************************
+ Definición de lo que puedes 
+ encontrarte en cada una de las carpetas
+---------------------------------------
+
+
+0. Aquí puedes acceder al dataset virgen, tal y como se obtuvo de la fuente de origen. 
+
+
+
+1. Análisis detallado de los datos: en esta carpeta podemos  
+   acceder al análisis y al programa que se realizó.
+
+	a.	Carpeta Análisis: Información obtenida a través de la
+		 ejecución del programa main.py dentro 		
+		de la carpeta SPEGC_Extraction que se encuentra dentro 
+		de la carpeta Programa_análisis_exploratorio.
+
+	b.	Capeta Programa_análisis_exploratorio. Dentro está la
+		 carpeta “mi programa” este programa lo	que hace es leer 
+		los diferentes archivos e ir obteniendo información de ello 
+		como pueden ser: la cantidad de columnas, la cantidad de 
+		datos vacío en porcentaje, el nombre de las columnas,
+		 el nombre del fichero etc.
+
+
+
+2. Análisis de visualización de grafos: en esta carpeta puedes
+   encontrar el programa que recorre cada uno de los archivos y 
+   va generando un grafo en función de todos aquellos campos que 
+   pertenecen a un fichero, o todos los campos comunes que existen
+   dentro de todos los datos… 
+
+
+3. Tratamiento de datos para mi caso de uso: en esta carpeta se puede 
+   encontrar diferentes archivos ejecutados desde Júpiter notebook dónde
+   hacemos tratamientos y uniones de datos para poder utilizarlo finalmente 
+   en nuestro predictor es interesante que para el desarrollo de esta carpeta 
+   se optó por crear una carpeta con datos vírgenes y otra carpeta con datos 
+   volátiles que eran los que íbamos cargando y íbamos manipulando para finalmente 
+   obtener datos finales como la carpeta “ISTAC”, “joins” entre otros. 
+
+
+4. Predictor de gasto turístico: en esta carpeta encontramos los archivos 
+   que utilizamos finalmente para hacer el predictor de gasto turístico  
+   como son las características de soporte y características de clientes 
+   para los cuales hicieron diferentes uniones y también podemos acceder 
+   a diferentes predictores y diferentes pruebas que fuimos desarrollando. 
+	
+	Archivos mas importantes:
+
+		- 25-01  RESUMEN ARCHIVO GASTO_MEDIO_CANARIAS 
+		- Gasto Medio Tratamiento
+		- CARACTERÍSTICAS DE SOPORTE MINIMAS
+		- CARACTERÍSTICAS DE SOPORTE
+		- CARACTERÍSTICAS DEL CLIENTE
+		- Unión_GMI_CCliente
+		- Unión_GM_CCliente_CSoporte
+    		- Predictor_GOtros_03_GMI_join_cc_cs_filtroPI_FCanarias-Copy1-VersionFINAL
+	
